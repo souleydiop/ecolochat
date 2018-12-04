@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#connextion.xhtml" PATH="/connextion.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#connextion.xhtml:0" NAME="item"
+   PATH="/connextion.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="menugeneral::menugeneral.xhtml?faces-redirect=true"
+    NAME="output" PATH="menugeneral.xhtml?faces-redirect=true"
+    TARGET="rules:menugeneral.xhtml?faces-redirect=true"
+    TITLE="menugeneral" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#connextion.xhtml:1" NAME="item1"
+   PATH="/connextion.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="chat::chat.xhtml?faces-redirect=true"
+    NAME="output" PATH="chat.xhtml?faces-redirect=true"
+    TARGET="rules:chat.xhtml?faces-redirect=true" TITLE="chat" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#connextion.xhtml:2" NAME="item2"
+   PATH="/connextion.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="menuChat::#primepush#menuChat.xhtml?faces-redirect=true"
+    NAME="output" PATH="/primepush/menuChat.xhtml?faces-redirect=true"
+    TARGET="rules:#primepush#menuChat.xhtml?faces-redirect=true"
+    TITLE="menuChat" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:chat.xhtml?faces-redirect=true"
+  PATH="chat.xhtml?faces-redirect=true" SHAPE="272,209,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM
+  NAME="rules:#primepush#menuChat.xhtml?faces-redirect=true"
+  PATH="/primepush/menuChat.xhtml?faces-redirect=true"
+  SHAPE="272,321,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:menugeneral.xhtml?faces-redirect=true"
+  PATH="menugeneral.xhtml?faces-redirect=true" SHAPE="272,33,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

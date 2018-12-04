@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Authendication is successful!!</title>
+</h:head>
+<h:body>
+    <h:form>
+    <p:panel header="Validate">
+        <p>Welcome #{loginBean.username}</p>
+        <p>Welcome #{loginBean.password}</p>
+        <h:commandLink action="#{loginBean.logout}" value="Logout"></h:commandLink>
+    </p:panel>
+    </h:form>
+</h:body>
+</html>
